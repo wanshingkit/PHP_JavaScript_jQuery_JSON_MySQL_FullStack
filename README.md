@@ -15,10 +15,10 @@ Below passages show introduction to each files
 HTML file
 
 •index.html
-Registration page user interface
+1.Registration page user interface.
 
 •login.html
-Login page
+1.Login page.
 
 ==========================================================================================
 JavaScript file
@@ -41,10 +41,11 @@ js.js
 ===========================================================================================
 
 PHP file
-•connect.php	
-it is a PDO that connect the database
 
-•login.php	
+•connect.php
+1.it is a PDO that connect the database
+
+•login.php
 1.	Filter the incoming message
 2.	validate if there is any matching email and password in the database, if match, throwback message to login.js
 3.	if verification success, assign an email to the session 
@@ -65,13 +66,13 @@ Credentials are bought from login.js,l verified as a user.
 2.	send username after JSON encode
 
 •throwNote.php	
-PHP part verify the session is correct, then starts. this page receive a message from addNote.js, line 78, a fetch function active after the save button is pressed, then we throw newly created note to the database and reply
+1.PHP part verify the session is correct, then starts. this page receive a message from addNote.js, line 78, a fetch function active after the save button is pressed, then we throw newly created note to the database and reply
 
 •updateNote.php	
-session verification and then find the matching note to update
+1.session verification and then find the matching note to update
 
 •Logout.php	
-Log out and end the session
+1.Log out and end the session
 
 •getNote.php	
 1. to retrieve existing id and content by searching notes all under the email in session
@@ -79,4 +80,4 @@ Log out and end the session
 
 
 •DeleteNote.php	
-delete the note according to the id received vs. id in the database.
+1.delete the note according to the id received vs. id in the database.
