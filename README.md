@@ -14,16 +14,16 @@ Below passages show introduction to each files
 
 HTML file
 
-•index.html
+•index.html <br>
 1.Registration page user interface.
 
-•login.html
+•login.html<br>
 1.Login page.
 
 ==========================================================================================
 JavaScript file
 
-•login.js	
+•login.js	<br>
 after login, 
 1.	send credential to login.php
 2.	active getVerify(), if login, we should pass the user to addnote.php, where a platform to add/delete, edit note
@@ -40,17 +40,17 @@ js.js
 
 ===========================================================================================
 
-PHP file
+PHP file<br>
 
-•connect.php
-1.it is a PDO that connect the database
+•connect.php<br>
+it is a PDO that connect the database
 
 •login.php
 1.	Filter the incoming message
 2.	validate if there is any matching email and password in the database, if match, throwback message to login.js
 3.	if verification success, assign an email to the session 
 
-•addnote.php	
+•addnote.php <br>	
 Credentials are bought from login.js,l verified as a user.
 1. This is a platform to manage your notes. It shows an HTML interface for the user. AddNote.js control buttons’ logic
 2. PHP part of the code open session and verify the session validity
@@ -65,19 +65,19 @@ Credentials are bought from login.js,l verified as a user.
 1.	after receiving the request from js.js, use SQL command to inquire the database for username
 2.	send username after JSON encode
 
-•throwNote.php	
-1.PHP part verify the session is correct, then starts. this page receive a message from addNote.js, line 78, a fetch function active after the save button is pressed, then we throw newly created note to the database and reply
+•throwNote.php	<br>
+PHP part verify the session is correct, then starts. this page receive a message from addNote.js, line 78, a fetch function active after the save button is pressed, then we throw newly created note to the database and reply
 
-•updateNote.php	
+•updateNote.php	<br>
 1.session verification and then find the matching note to update
 
-•Logout.php	
-1.Log out and end the session
+•Logout.php	<br>
+Log out and end the session
 
 •getNote.php	
 1. to retrieve existing id and content by searching notes all under the email in session
 2. throwback the notes in [] to loadNotes() in addNote.js, where raise the request
 
 
-•DeleteNote.php	
-1.delete the note according to the id received vs. id in the database.
+•DeleteNote.php	<br>
+Delete the note according to the id received vs. id in the database.
