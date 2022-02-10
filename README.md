@@ -10,7 +10,7 @@ The project aims to develop a web application that works like Evernote.
 
 Below passages show introduction to each files
 
-============================================================
+============================================================ <br>
 HTML file
 
 •index.html <br>
@@ -19,7 +19,7 @@ HTML file
 •login.html<br>
 1.Login page.
 
-============================================================
+============================================================ <br>
 JavaScript file
 
 •login.js	<br>
@@ -37,7 +37,7 @@ js.js
 3.	writing a greeting message with username, so getusername() first fetch a request to getUsername.php, a PHP that retrieves username from the database, and then getusername() pass the username to success to do a simple amendment on greeting msg and print it out
 
 
-============================================================
+============================================================ <br>
 
 PHP file<br>
 
