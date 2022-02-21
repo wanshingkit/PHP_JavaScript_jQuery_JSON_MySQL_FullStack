@@ -7,6 +7,9 @@ The project aims to develop a web application that works like Evernote.
 •	CRUD features on both accounts and notes section. 
 •	Involved in all the stages of Software Development Life Cycle
 
+Below video demonstrate the function of Notebuster:
+<video src='https://www.youtube.com/watch?v=YdyxF18sF5Y' width=180/>
+
 
 Below passages show introduction to each files
 
