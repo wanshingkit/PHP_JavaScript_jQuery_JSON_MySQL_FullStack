@@ -1,4 +1,4 @@
-Operation of Notebuster
+<h2>Operation of Notebuster</h2>
 
 The project aims to develop a web application that works like Evernote.  
 •	Used PHP to create maintainable code and MySQL for database design and development 
@@ -7,13 +7,15 @@ The project aims to develop a web application that works like Evernote.
 •	CRUD features on both accounts and notes section. 
 •	Involved in all the stages of Software Development Life Cycle
 
-Below video demonstrate the function of Notebuster:
-[![Watch the video](https://user-images.githubusercontent.com/20102987/155016388-6d2d857e-7a4e-4fd6-ae71-6e8d822bb687.png)](https://youtu.be/unS30nkaLnI)
+<h3>Below video demonstrate the function of Notebuster:</h3>
+<a href="https://youtu.be/unS30nkaLnI">
+         <img alt="Qries" src="https://user-images.githubusercontent.com/20102987/155016388-6d2d857e-7a4e-4fd6-ae71-6e8d822bb687.png"
+         width=450" height="225">
+      </a>
 
 
 
-
-Below passages show introduction to each files
+<h3>Below passages show introduction to each files</h3>
 
 ============================================================ <br>
 HTML file
