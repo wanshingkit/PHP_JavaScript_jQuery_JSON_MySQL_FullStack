@@ -1,11 +1,13 @@
 <h2>Operation of Notebuster</h2>
 
-The project aims to develop a web application that works like Evernote.  
-•	Used PHP to create maintainable code and MySQL for database design and development 
-•	Call JavaScript & jQuery to control content like note content after pressing the del button.  
-• Designed UI using HTML5, CSS3, jQuery, AJAX, and JavaScript 
-•	CRUD features on both accounts and notes section. 
-•	Involved in all the stages of Software Development Life Cycle
+The project aims to develop a web application that works like Evernote. 
+<ul>
+<li>Used PHP to create maintainable code and MySQL for database design and development </li>
+<li>Call JavaScript & jQuery to control content like note content after pressing the del button.  </li>
+<li>Designed UI using HTML5, CSS3, jQuery, AJAX, and JavaScript </li>
+<li>CRUD features on both accounts and notes section. </li>
+<li>Involved in all the stages of Software Development Life Cycle</li>
+  </ul>
 
 <h3>Below video demonstrate the function of Notebuster:</h3>
 <a href="https://youtu.be/unS30nkaLnI">
